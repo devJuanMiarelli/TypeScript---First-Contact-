@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {  
+        "outDir": "dist/js", // output directory -> para onde serão transferidos/transcritos os arquivos ts para js
+        "target": "ES6", // versão do EkmaScript em que será transcrito os arquivos ts para js
+        "noEmitOnError": true, // não permite que aplicação emita arquivos js se houver erros
+        "noImplicitAny": true
+    },
+
+    "include": [
+        "app/**/*" // de onde serão pegos os arquivos que serão transcritos (todas as pastas dentro da pasta app)
+    ]
+}
